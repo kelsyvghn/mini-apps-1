@@ -1,0 +1,33 @@
+body {
+  background-color: coral;
+}
+
+table {
+  border: 1px solid rgb(10, 91, 94);
+  background-color: rgb(155, 202, 202);
+  width: 75%;
+  padding: 10px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  border-radius: 25px;
+  position: relative;
+  margin: auto;
+}
+
+
+td {
+  border: 1px solid white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+}
+
+th {
+  height: 75px;
+}
+
+tr {
+  height: 100px;
+  width:  100px;
+}

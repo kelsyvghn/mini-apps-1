@@ -1,2 +1,49 @@
+<!DOCTYPE html>
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <link rel="stylesheet" href="tictactoe.css">
+  <title>Tic Tac Toe</title>
+</head>
 
+<body>
+<h1>TIC TAC TOE GAMEBOARD</h1>
+  <table border="4" id="table" >
+    <!--here will be the table data-->
+    <thead>
+      <tr>
+        <th>TIC</th>
+        <th>TAC</th>
+        <th>TOE</th>
+      </tr>
+    </thead>
+    <tbody id="tableData" >
+
+      <tr>
+      <td class="square"> </td>
+      <td class="square"> </td>
+      <td class="square"> </td>
+     </tr>
+
+     <tr>
+      <td class="square"> </td>
+      <td class="square"> </td>
+      <td class="square"> </td>
+   </tr>
+
+    <tr>
+      <td class="square"> </td>
+      <td class="square"> </td>
+      <td class="square"> </td>
+   </tr>
+
+   <input onChange="crossWhenClicked()" view="X When Clicked">
+
+    </tbody>
+
+  </table>
+
+</body>
+<script src="app.js"></script>
+</html>

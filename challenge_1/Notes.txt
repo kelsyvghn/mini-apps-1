@@ -1,0 +1,26 @@
+Creating TIC TAC Toe
+
+Basic File Setup
+- first build up the basic outline
+  - start with html doc, set type
+  - add tags
+  - connect to app.js
+
+Initial Board Setup
+- then setup Board
+  - in app.js, create a table
+  - in the html file add table elements/tags
+  - link css to html in the head
+  - develop some basic attributes for css file, to display board
+  -
+Add Event Listener
+  - add event listener that changes input value when clicked
+  - check that the function works by console.log clicked
+  - now get the inner data to change...
+
+
+Event Listener Not Working
+Alternate between X and O
+Implement the rules of Tic Tac Toe
+Resetting the Game
+Separation of Concerns
