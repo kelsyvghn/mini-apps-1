@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.post('/', (req, res) => res.send('Send data to server'));
+
+app.use(express.static('client'));
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
