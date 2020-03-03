@@ -1,23 +1,26 @@
-const plays = ['X', 'O', ' ']; //possible way to alternate between X, O, and empty (to undo play)
-/* GOALS:
+/*
+GOALS:
+
 x- should register when  square is clicked
 - should know which square is clicked
 - once clicked, it should change the input value to X, O, or empty, depending on current value of square (toggle through)
-- 
+-
 */
 
-const crossWhenClicked = function(value, count) {
-  for (var i = 0; i < value.length; i++ ) {
-    let innerValue = '<td>' + plays[count] + '</td>';
-    value[i] =
+document.getElementsByClassName("tableData").addEventListener("click", function (id) {
+console.log('clicked!');
+toggle(id);
+});
 
-    console.log(plays[i]);
+
+
+function toggle(id) {
+  var x = document.getElementById(id);
+  if (x.innerHTML = '') {
+    x.innerHTML = "X"
+  } else if (x.innerHTML === "X") {
+    x.innerHTML = "O";
+  } else {
+    x.innerHTML = "";
   }
 }
-
-document.getElementById("table").addEventListener("click", function(){
-  count++
-  crossWhenCLicked(square, count);
-
-  console.log('clicked!');
-});
