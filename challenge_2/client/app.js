@@ -13,3 +13,11 @@ window.addEventListener("load", function () {
     sendData();
   });
 }});
+
+
+function generateTable ( data ) {
+  for (var key in obj) {
+
+  }
+
+}
