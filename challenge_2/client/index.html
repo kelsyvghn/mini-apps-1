@@ -9,13 +9,16 @@
 
 <body>
 <h1>CSV Report Generator</h1>
-<form id="userform"> User Name:
-  <input type="text"  name="username">
-  <input type="submit">
+<form id="form" method="post" action="upload_json.csv">
+  <div>
+    <label for="files">Choose a File to Upload:</label>
 
+    <input type="file"
+    id="file" name="file">
+    <input type="submit">
+  </div>
 
 </form>
-<textarea name="comment" form="userform"> Input information here: </textarea>
 
 </body>
 <script src="app.js"></script>

@@ -32,6 +32,8 @@ Set up the server
  ✔️ - verify dependencies in package.json
  ✔️ - install express if not installed  (using --save)
  ✔️ - verify in postman or browser that server is up, should receive 'Hello World!' or whatever script res.send you added
- - point express to client folder to connect html
- - ^ add express use/ middleware with client
-
+ ✔️ - point express to client folder to connect html
+ ✔️ - ^ add express use/ middleware with client
+ - post user input to the server
+ - return the user input from the server to the html
+ -  
