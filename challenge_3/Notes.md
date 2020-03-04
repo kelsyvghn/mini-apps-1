@@ -22,11 +22,13 @@ AvAilaBle HiNts:
   - install nodemon
   - setup get request
   - send Hello World to server
+  !!- insure to point express to the client folder using middleware, otherwise the html will not connect to the server
 
 [] Setup app.jsx
-  - import react
-  - import react dom
-  - render react dom at bottom of page
+  x- import react
+  x- import react dom
+  x- install babel and dependenciesnpm 
+  x- render react dom at bottom of page
   - console.log to see if html renders...
     -
   - add class/ component structures
@@ -57,3 +59,34 @@ X* Additionally, be sure to use nodemon to watch for changes in server.js.
 
 
 
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       item: ''
+//     }
+//     this.handleChange = this.handleChange.bind(this);
+//     this.handleSubmit = this.handleSubmit.bind(this);
+//   }
+
+//   handleChange(event) {
+//     this.setState({value: event.target.value});
+//   }
+
+//   handleSubmit(event) {
+//     alert('A name was submitted: ' + this.state.value);
+//     event.preventDefault();
+//   }
+
+//   render() {
+//     return (
+//       <form onSubmit={this.handleSubmit}>
+//         <label>
+//           Checkout Here ->
+//                     <input type="text" item={this.state.item} onChange={this.handleChange} />
+//         </label>
+//         <input type="submit" value="submit" />
+//       </form>
+//     )
+//   }
+// }
