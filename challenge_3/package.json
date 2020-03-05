@@ -4,7 +4,7 @@
     "description": "challenge 3 Checkout App",
     "main": "server.js",
     "scripts": {
-        "watch": "babel-watch client/app.jsx",
+        "watch": "./node_modules/babel/lib client --out-dir public --presets @babel/preset-react --source-maps inline --watch",
         "start": "nodemon server.js"
     },
     "keywords": [],
