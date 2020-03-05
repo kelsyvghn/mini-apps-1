@@ -1,0 +1,46 @@
+CONNECT FOUR
+
+Environment Setup
+x- create package.json FIRST (webpack won't load properly without)
+
+x- install webpack
+  x- npm install webpack --save-dev
+  x- npm install webpack-cli --save-dev
+
+x- add script for react-dev setting webpack   development server to watch (webpack -d --watch)
+
+x- setup babel to transpile files (since some browser cannot support ES6) babel-loader (npm install babel-loader @babel/core @babel/preset-env @babel/preset-react --save-dev)
+
+x- configure webpack
+  x- create a webpack file
+  x- setup webpack to load react components into client
+  x- setup entry point
+  x- set up output point
+  x- add options, with the presets of @babel above, or copied from within babel doc
+install React dev tools
+  x- npm run react-dev
+  x- should see bundle.js (your transpiler) appear in dist folder
+
+Front End Setup
+- index.html setup
+  - create html DOC
+  - connect App id
+  - add script for the bundle.js file
+- verify html renders successfully in the browser
+- index.js setup
+  - import react documents
+  - set to render App to the DOM
+  - input a simple statement to insure that page renders properly
+
+Back End Setup
+- server.js setup
+  - install express
+  - direct to client dist folder
+  - use a get request to test that server was set up properly
+
+React Components Setup
+- App.jsx setup
+  - import react documents
+  - export defualt App
+  - input a simple render to verify that page loads properly
+
