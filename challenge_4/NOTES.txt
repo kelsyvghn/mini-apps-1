@@ -41,8 +41,26 @@ React Components Setup
 
 
 Back End Setup
-  - server.js setup
-    - install express
-    - direct to client dist folder
-    - use a get request to test that server was set up properly
+  x- server.js setup
+    x- require files
+    x- install express (verify installed)
+    x- direct to client dist folder using static
+    x- setup path
+    x- use a get request to test that server was set up properly
 
+
+Creating board
+  set up App file
+    x- should be a class since there will be state
+    x- add the player and win states
+
+  set up the GameBoard file
+    x- import react
+    x- export GameBoard
+    x- create a gameboard component
+    x- import gameboard to app
+    x- add gambeoard to the render of App
+    x- verfy gameboard component is set up properly by seeing if it shows on the webpage
+    Create actual gameboard
+      - start with individual squares in a subcomponent
+      -

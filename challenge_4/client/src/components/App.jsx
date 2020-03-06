@@ -1,10 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
+import GameBoard from './GameBoard.jsx';
 
 class App extends React.Component {
-  render() {
-   return  <div>Hello React!!!</div>;
+  constructor(props) {
+    super(props);
+    this.state = {
+      playerOne: true,
+      playerTwo: false,
+      win: false
+    }
   }
+
+  render() {
+   return  (
+
+   <div>Hello React!!!
+
+   <GameBoard />
+   </div>
+   )}
 }
 
 
