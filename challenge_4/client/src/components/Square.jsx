@@ -12,8 +12,10 @@ const Square = (props) => {
 
   const styling = {
       borderColor: 'darkgoldenrod',
+      borderWidth: '1em',
       width: '50px',
       height: '50px',
+      padding: '2em',
   };
 
   export default Square;

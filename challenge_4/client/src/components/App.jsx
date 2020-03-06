@@ -1,15 +1,13 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import GameBoard from './GameBoard.jsx';
-import { ajax } from 'jquery;'
+import { ajax } from 'jquery';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      playerOne: true,
-      playerTwo: false,
-      win: false
+      win: false,
     }
   }
 
@@ -22,12 +20,12 @@ class App extends React.Component {
       error: e => console.log(e),
     })
   }
+  
 
   render() {
    return  (
 
-   <div>Hello React!!!
-
+   <div>Hello PLAYERS!!!
    <GameBoard />
    </div>
    )}

@@ -64,4 +64,14 @@ Creating board
     Create actual gameboard
       x- start with individual squares in a subcomponent
       x- render the squares to a board
-      -
+      x- add styling
+      x- add gamepieces
+
+BRINGING IT TOGETHER
+    x- add ajax request to App
+    x- install jquery (if you have not yet)
+    x- import jquery
+    x- run localhost with html connected
+
+Add Players? or... just find a winner!
+  - 
