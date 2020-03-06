@@ -62,5 +62,6 @@ Creating board
     x- add gambeoard to the render of App
     x- verfy gameboard component is set up properly by seeing if it shows on the webpage
     Create actual gameboard
-      - start with individual squares in a subcomponent
+      x- start with individual squares in a subcomponent
+      x- render the squares to a board
       -

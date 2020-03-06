@@ -4,10 +4,11 @@ const port= 3000;
 const path = require('path');
 
 //middleware to direct server to client folder
-app.use('/', express.static(path.join(__dirname, '/client')));
+app.use('/', express.static(path.join(__dirname, '/client/dist')));
 
 //get request
-app.get('/', (req, res) => {
+app.get('/playConnect', (req, res) => {
+
   res.send('Hello Server!');
 })
 
